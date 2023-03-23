@@ -1,8 +1,17 @@
-const {MessageEmbed} = require('discord.js')
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const { EmbedBuilder } = require('discord.js');
 
-const embed = new MessageEmbed()
-  .setTitle('Help Command')
-  .setDescription('Get help for StrangeBot')
-  .setImage('')
-
-//Allu can you add drop downs once we do more
+module.exports = {
+data: new SlashCommandBuilder()
+    .setName('help')
+    .setDescription('Help command'),
+async execute(interaction) {
+   
+  const helpembed - new EmbedBuilder()
+    .setcolor("Blurple")
+    .settitle('Help Center')
+    .setdesciption('Here is all of the commands')
+  
+    await interaction.reply ({ embeds: [helpembed]})
+    }
+};
