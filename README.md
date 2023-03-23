@@ -4,7 +4,7 @@ StrangeBot is and advanced discord Bot built by **@alluxd and @StrangeJaguar55**
 ## About us
 
 **Allu**
-@allu | put your about me here.
+Hello, my name is **Allu**. I'm an intermediate discord.js developer! I'm currently learning python and react. 
 
 **StrangeJaguar**
 Hi my name is **StrangeJaguar** and im a begginer/intermediate in javascript, even though im still learning to code, im still helping to work on the bot. i also helped create the bots profile picture and am working on the website
