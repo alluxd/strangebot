@@ -25,19 +25,4 @@ client
     loadEvents(client);
   })
   .catch((err) => console.log(err));
-
-  client.on(Events.InteractionCreate, async interaction => (
-
-      if(!interaction.isIsSelectMenu()) return;
-
-      if(interaction.customid === 'select') {
-        let choices = "";
-
-        await interaction.values.forEach(async value => {
-          choices += '${choices}'
-        })
-        
-        await interaction.reply({ content: '${choices}'})
-      }
-  ))
  
