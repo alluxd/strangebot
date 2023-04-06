@@ -14,7 +14,7 @@ module.exports = {
       console.log(`🍃 Connected to MongoDB`)
     )
     console.log(`🟦 ${client.user.username} is online!`);
-    client.user.setActivity('The House! 🏠', { type: ActivityType.Watching });
+    client.user.setActivity('my development!', { type: ActivityType.Watching });
     
   }, 
 };
