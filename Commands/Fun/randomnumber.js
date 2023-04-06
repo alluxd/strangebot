@@ -39,7 +39,10 @@ module.exports = {
         
        )
        await interaction.reply({
-            content: `Done!`
+            content: `Done!`,
+            embeds: [
+                 numberE
+            ]
         });
     }
 };
