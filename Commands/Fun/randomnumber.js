@@ -31,13 +31,12 @@ module.exports = {
 
 
        const numberE = new EmbedBuilder()
-       .setTitle("Random Number")
-       .addFields(
-        { name: 'Number', value: `${genNum}`, inline: true },
-        { name: 'Minimum', value: `${minNum}`, inline: true },
-        { name: 'Maximum', value: `${maxNum}`, inline: true },
-        
-       )
+       .setTitle("Random Number 🎲")
+      .setDescription('Randomised Number: ' + genNum)
+      .setFooter({
+        text: `Min: ${minNum}, Max: ${maxNum}`
+      })
+      .setColor("Blue")
        await interaction.reply({
             content: `Done!`,
             embeds: [
