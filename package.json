@@ -1,10 +1,10 @@
 {
   "name": "strangebot",
   "version": "1.0.0",
-  "description": "A bot?",
+  "description": "An open source discord bot.",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon "
+    "test": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -18,15 +18,5 @@
   "bugs": {
     "url": "https://github.com/alluxd/strangebot/issues"
   },
-  "homepage": "https://github.com/alluxd/strangebot#readme",
-  "dependencies": {
-    "@napi-rs/canvas": "^0.1.39",
-    "ascii-table": "^0.0.9",
-    "blob": "^0.1.0",
-    "discord.js": "^14.8.0",
-    "dotenv": "^16.0.3",
-    "mongoose": "^7.0.2",
-    "node-fetch": "^2.6.6",
-    "nodemon": "^2.0.21"
-  }
+  "homepage": "https://github.com/alluxd/strangebot#readme"
 }
