@@ -1,5 +1,5 @@
-const { SlashCommandBuilder } = require('@discordjs/builders');
-const { EmbedBuilder } = require('discord.js');
+
+const { EmbedBuilder, SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
 data: new SlashCommandBuilder()
@@ -18,6 +18,7 @@ const s = Math.floor(uptime % 60);
         { name: 'Latency 📶', value: `**${client.ws.ping}ms**` },
         { name: 'Uptime ⌚', value: `**${h}h, ${m}m, ${s}s**` }
     )
+    .setColor("Green")
    await interaction.reply({
     embeds: [
         pingEmbed

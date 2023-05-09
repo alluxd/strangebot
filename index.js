@@ -12,9 +12,9 @@ const client = new Client({
 });
 
 client.commands = new Collection();
-//client.config = require("./config.json");
+client.config = require("./config.json");
 
-const token = process.env.token
+const token = client.config.token
 require("dotenv").config()
 
 
